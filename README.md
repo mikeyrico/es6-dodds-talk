@@ -64,3 +64,12 @@ export * from './another-other-module'
 ```
 
 * see export-example.jpg for pattern useing index.js to define a folder interface
+
+
+```javascript
+// export named export and default in one export declaration
+export {
+  Api,
+  api as default
+}
+```
